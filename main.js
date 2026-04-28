@@ -25,8 +25,6 @@ const preencherGaleria = async function(){
     const urlFotos = await getUrlFotos(raca)
 
     const fotos = urlFotos.map(criarFoto)
-
-    console.log()
     galeria.replaceChildren(...fotos)
 }
 
