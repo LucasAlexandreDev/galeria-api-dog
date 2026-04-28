@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    padding: 20px;
+
+}
+
+.container-galeria{
+    display: column;
+    column-count: 5;
+}
+
+.container-pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pesquisa input{
+    flex-grow: 1;
+    padding: 16px;
+    font-size: 32px;
+    border-radius: 10px; 
+}
+
+.container-pesquisa button{
+    padding: 16px;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+.foto{
+    width: 100%;
+    margin-bottom: 12px;
+    border-radius: 10px; 
+}
